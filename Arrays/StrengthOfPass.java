@@ -1,4 +1,6 @@
 /**
+ * Tags: Amazon OA
+ * 
  * StrengthOfPass: Given a string, find the strength of the password.
  * The strength of the password increases by one for one consonant and one vowel
  * Eg: RitikGupta -> Ri ti Gu ta -> 4

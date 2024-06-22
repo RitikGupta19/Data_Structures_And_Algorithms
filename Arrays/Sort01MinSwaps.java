@@ -1,4 +1,6 @@
 /**
+ * Tags: Amazon OA
+ * 
  * Problem: To swap 0s and 1s in an array to make all 0s come before 1s or vice versa.
  * Find the minimum number of swaps required.
  * Eg: [0, 1, 0, 1] -> 1 => [0, 0, 1, 1]
