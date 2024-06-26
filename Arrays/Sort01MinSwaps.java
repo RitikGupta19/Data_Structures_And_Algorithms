@@ -6,6 +6,9 @@
  * Eg: [0, 1, 0, 1] -> 1 => [0, 0, 1, 1]
  * Eg: [1, 1, 0, 0, 1] -> 2 => [1, 1, 1, 0, 0]
  * 
+ * We are checking swaps for both 0s and 1s and taking the minimum of both.
+ * We maintain last ptr till where we need to swap and count of it as well.
+ * 
  * Time Complexity: O(n)
  * Space Complexity: O(1)
  */
