@@ -2,6 +2,10 @@
  * Problem: https://www.geeksforgeeks.org/minimum-swaps-required-group-1s-together/
  * We need to find the min. number of swaps needed to group all 1s together.
  * 
+ * Intution:
+ * Check the count of 1s for all the subarrays and subtract it from total count of 1s.
+ * Choose the min number.
+ * 
  * Brute force:
  * 1. Count the number of 1s in the array.
  * 2. For each possible subarray we find the number of ones.
@@ -35,6 +39,10 @@ public static int minSwaps(int arr[], int n) {
 
 /**
  * Optimal Approach:
+ * 
+ * Intution:
+ * Instead of making all the subarrays with 2 nested loops, we can use sliding window.
+ * 
  * We count the total number of ones in the array.
  * We find the number of ones in the first window of size 'ones'.
  * We slide the window and find the number of ones in the next window.
