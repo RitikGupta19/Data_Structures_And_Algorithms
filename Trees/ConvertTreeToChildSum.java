@@ -11,6 +11,11 @@
  * 
  * 1. If children sum < parent, then change children value to parents value
  * 2. If children sum >= parent, then change parent value
+ * 
+ * Problem link: https://takeuforward.org/data-structure/check-for-children-sum-property-in-a-binary-tree/
+ * 
+ * Time Complexity: O(n)
+ * Space Complexity: O(h) where h is the height of the tree
  */
 public class ConvertTreeToChildSum {
     // Function to change the values of the nodes
