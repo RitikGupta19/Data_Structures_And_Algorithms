@@ -14,6 +14,8 @@
  * Space Complexity: O(n) - Recursive stack
  */
 public class InorderSuccPredBST {
+        // Main in-order logic
+        // we are comparing the key with the root and updating the predecessor and successor
         public static void helper(Node root, Node[] pre, Node[] suc, int key){
         if(root == null) return;
         helper(root.left, pre, suc, key);
