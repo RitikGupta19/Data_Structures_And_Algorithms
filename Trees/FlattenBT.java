@@ -4,7 +4,8 @@
  * It should be done in-place (No new node should be created)
  * 
  * When new node can be created: simply do a pre-order traversal and create a new linked list
- * 
+ 
+ * Here NO NEW NODE:
  * Intuition:
  * To do the reverse pre-order traversal and keep track of the previous node
  * NLR -> RLN
