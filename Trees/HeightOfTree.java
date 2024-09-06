@@ -14,3 +14,9 @@ class Solution {
         else return rheight + 1;   
     }
 }
+/*
+ * If want to calculate the height of BT using level order traversal
+ * Then, we can use the same code as LevelOrderTraversal.java
+ * and create a variable level and increment it after each level
+ * and return the level at the end.
+ */
