@@ -1,0 +1,34 @@
+ * When in a problem you need to find the following things:
+ * 1. Find the total number of ways
+ * 2. Best possible solution
+ * 3. Min/Max steps to do this
+ * 
+ * This means that this problem is related to Recursion.
+ * If a problem is related to recursion it can be done with DP.
+ * 
+ * Some basic steps for each DP problem:
+ * 1. Try to represent the problem always in terms of index.
+ * 2. Try to do all the possible stuff with those index according to the problem statement.
+ * 3. If total number of ways asked: then sum all the possible stuffs.
+ * 4. Find min: find min. of all the stuffs (similar for the max)
+ * 
+ * Following above steps you would be able to write any recurrence relation.
+ * If that is written you will be able to solve the DP problem.
+ * 
+ * Staircase Problem:
+ * We need to find the total number of ways we can reach from 0th step to the nth step.
+ * We can take 1 step, 2 steps at a time.
+ * Since we need to find the total number of ways = DP problem.
+
+
+ There are 6 types of problems in DP which can help you solve any DP question for 2D / Grid based problems.
+ 1. Count Paths
+ 2. Count paths with obstacles
+ 3. Min. Path sum
+ 4. Max. Path sum
+ 5. Triangle
+ 6. 2 Start points 
+
+ Subsets/Subsequences problems:
+ Subsets: order does not matter
+ Subsequences: subset with order as well.

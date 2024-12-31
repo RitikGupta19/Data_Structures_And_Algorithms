@@ -37,6 +37,7 @@ class Solution {
 
 /**
  * Tabulation: Bottom Up approach
+ * Prepared the base case first i.e dp[0] and dp[1]
  * 
  * Time complexity: O(n)
  * Space Complexity: O(n) => Table space

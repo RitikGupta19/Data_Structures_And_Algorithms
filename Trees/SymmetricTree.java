@@ -6,6 +6,9 @@
  * 1. Root node of both the trees should be equal.
  * 2. Left subtree of the first tree should be equal to the right subtree of the second tree.
  * 3. Right subtree of the first tree should be equal to the left subtree of the second tree.
+ * 
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
  */
 class GfG
 {

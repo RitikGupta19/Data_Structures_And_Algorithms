@@ -45,4 +45,5 @@ class Solution {
 
 /**
  * Dynamic Programming solution:
+ * Better solution:
  */

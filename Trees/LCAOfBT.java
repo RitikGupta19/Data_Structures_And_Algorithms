@@ -35,7 +35,9 @@ public @interface LCAOfBT {
 
 /*
  * Better approach:
- * Intuition: To recursively find the left and right subtree
+ * Intuition: To recursively find the lca of left and right subtree
+ * Try going to the last element and than backtrack to top with lca
+ * 
  * If the root is equal to p or q, then return the root
  * Then recursively find the left and right subtree
  * If both the left and right subtree are not null, then return the root
