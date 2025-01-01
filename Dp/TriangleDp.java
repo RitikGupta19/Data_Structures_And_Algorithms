@@ -8,6 +8,9 @@
  * Sum should be minimum for the path.
  * 
  * If we do not see uniformity in numbers/given data, we can't use Greedy.
+ * Greedy can be used when [4,2,0] uniformity is there as all elements have diff = 2
+ * Further coming elements can be predicted.
+ * Eg: [9,6,5,1] - Greedy not possible
  * Thus, we will use Recursion / DP.
  * 
  * Recursion:
