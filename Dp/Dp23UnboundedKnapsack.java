@@ -93,6 +93,7 @@ public class Dp23UnboundedKnapsack {
         return prev[W];
     }
 
+    // Can be optimized into 1d array - more space optimized
     public static int unboundedKnapsack(int n, int w, int[] profit, int[] weight) {
         // Write your code here.
         // int ans = recursion(n - 1, w, profit, weight);
