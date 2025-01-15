@@ -1,7 +1,7 @@
 /**
  * Link: https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/description/
  * 
- * Intution:
+ * Intuition:
  * Since we can shift the first char to the last char - this gives us hint for rotation of arr
  * OR we can say to append whole string and then traverse the string using sliding window for
  * all possible substrings of length n.
