@@ -45,7 +45,7 @@ public class DivisibleBy8{
             }
             
             num = i;
-            
+            // We are using continue as it is not usefull to check further if first count does not match
             if(freq2[num % 10] > freq[num % 10]) continue;
             num = num /10;
             if(freq2[num % 10] > freq[num % 10]) continue;
