@@ -3,6 +3,8 @@
  * Problem link: https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
  * Similar to the max path sum in binary tree / max path sum in nary tree.
  * 
+ * Similar problems: https://www.geeksforgeeks.org/maximum-path-sum-in-a-n-ary-tree/
+ * 
  * Approach:
  * 1. If the root is null, return 0.
  * 2. If the root has no children, return 1.
