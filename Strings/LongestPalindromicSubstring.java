@@ -26,6 +26,11 @@
  * Time complexity: O(n^2)
  * Space complexity: O(1)
  * 
+ * Approach 4: Manacher's algorithm
+ * Complex approach
+ * 
+ * Time complexity: O(n)
+ * Space complexity: O(n)
  */
 public class LongestPalindromicSubstring {
     public String longestPalindrome(String s) {
