@@ -1,6 +1,8 @@
 /**
  * Count prime numbers less than = n
  * Problem: https://leetcode.com/problems/count-primes/
+ * See this question for multiple queries - last trick to efficiently solve for multiple queries:
+ * https://takeuforward.org/maths/count-prime-in-a-range-l-r
  * 
  * Approach 1:
  * 1. Iterate for each number till N
