@@ -182,6 +182,8 @@ public class Dp41LongestIncreasingSubsequence {
 }
 
 // APPROACH 6 - FOR PRINTING LIS
+public static int lastInd = -1;
+
 public static void dp(int[] nums, int n, int[] dps, int[] hash){
     int max = Integer.MIN_VALUE;
     for(int curr = 0; curr < n; curr++){
