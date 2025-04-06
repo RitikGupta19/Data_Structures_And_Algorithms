@@ -148,7 +148,10 @@ public class Dp41LongestIncreasingSubsequence {
         return lis.size();
     }
 
-    // APPROACH 7 - COLLECTIONS BS LOGIC
+    // APPROACH 7 - COLLECTIONS BS LOGIC -> Used to return the index:
+    // if the element is present, it returns the index of the element.
+    // if the element is not present, it returns negative of (insertion point).
+    // Insertion point is the index at which the element should be inserted to maintain the order.
     public static int bs(int nums[], int n){
         List<Integer> lis = new ArrayList<>();
         lis.add(nums[0]);
