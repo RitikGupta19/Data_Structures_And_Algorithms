@@ -18,7 +18,7 @@
  * Time Complexity: O(n^2) - for DP and hash array.
  * Space Complexity: O(n) - for DP and hash array.
  */
-public class Dp43LongestDivisibleSubset {
+public class Dp44LargestDivisibleSubset {
     public static int lastInd = -1;
 
     public void dps(int[] nums, int n, int[] dp, int[] hash){
