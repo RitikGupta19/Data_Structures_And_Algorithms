@@ -37,3 +37,6 @@
  Comparisons
  Replacements
  Edits
+
+ LIS - Longest Increasing Subsequences DP
+ Matrix chain multiplication - Partition DP
