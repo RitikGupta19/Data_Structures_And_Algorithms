@@ -35,4 +35,18 @@ public class MaxProductSubarray {
         }   
         return ans;
     }
+
+    // APPROACH 2:
+    public int maxProduct(int[] nums) {
+        int n = nums.length;
+        int max = nums[0], min = nums[0], ans = nums[0];
+
+        for(int i = 1; i < n; i++){
+            int temp = Math.max(nums[i], Math.max(nums[i] * max, nums[i] * min));
+            min = Math.min(nums[i], Math.min(nums[i] * max, nums[i] * min));
+            max = temp;
+            ans = Math.max(ans, max);
+        }
+        return ans;
+    }
 }
