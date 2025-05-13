@@ -1,5 +1,6 @@
 /**
  * Problem: To find the shortest distance from the top left corner to the bottom right corner in a binary matrix.
+ * https://leetcode.com/problems/shortest-path-in-binary-matrix/
  * The matrix contains 0s and 1s, where 0 represents an open cell and 1 represents a blocked cell.
  * The path can only be formed by moving in 8 directions (up, down, left, right, and diagonally).
  * The distance between two adjacent cells is 1.
