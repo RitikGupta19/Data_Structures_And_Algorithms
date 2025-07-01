@@ -1,3 +1,5 @@
+// LeetCode Question: https://leetcode.com/problems/design-hashmap/
+
 class HashNode {
     int key;
     int value;
